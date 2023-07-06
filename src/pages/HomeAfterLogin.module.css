@@ -1,0 +1,237 @@
+.rectangle {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-600);
+  height: 148px;
+}
+.about,
+.contact,
+.privacyPolicy,
+.termsOfUse {
+  position: absolute;
+  top: 24.81px;
+  left: calc(50% - 33px);
+  display: inline-block;
+  width: 47px;
+  cursor: pointer;
+}
+.about,
+.privacyPolicy,
+.termsOfUse {
+  top: 74.81px;
+  left: calc(50% - 46px);
+  width: 72px;
+}
+.about,
+.privacyPolicy {
+  top: -0.19px;
+  left: calc(50% - 28px);
+  width: 37px;
+}
+.privacyPolicy {
+  top: 49.81px;
+  left: calc(50% - 51px);
+  font-size: var(--font-size-xs);
+  width: 82px;
+}
+.frame1 {
+  position: absolute;
+  width: 28.98%;
+  top: calc(50% - 50px);
+  right: 71.02%;
+  left: 0;
+  height: 100px;
+}
+.copyright2022 {
+  position: absolute;
+  width: 54.55%;
+  top: calc(50% - 9.19px);
+  left: 45.45%;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  display: inline-block;
+}
+.footer,
+.frame {
+  position: absolute;
+  width: 88%;
+  top: 24.19px;
+  right: 6%;
+  left: 6%;
+  height: 100px;
+}
+.footer {
+  width: 100%;
+  top: 652px;
+  right: 0;
+  left: 0;
+  height: 148px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-darkslategray-200);
+}
+.yourOrders {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  font-weight: 600;
+}
+.arrowCard11Icon {
+  position: absolute;
+  top: 51px;
+  left: 29px;
+  border-radius: var(--br-3xs);
+  width: 34px;
+  height: 23px;
+  overflow: hidden;
+}
+.yourMenuParent,
+.yourOrdersParent {
+  position: absolute;
+  left: 44px;
+  border-radius: var(--br-xl);
+  width: 324px;
+  height: 130px;
+  overflow: hidden;
+  color: var(--color-white);
+}
+.yourOrdersParent {
+  top: 413px;
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(114, 91, 226, 0.3),
+      rgba(114, 91, 226, 0) 45.31%
+    ),
+    #8ddad5;
+}
+.yourMenuParent {
+  top: 255px;
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(114, 91, 226, 0.3),
+      rgba(114, 91, 226, 0) 45.31%
+    ),
+    #6082b6;
+  cursor: pointer;
+}
+.mainMenu {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-weight: 600;
+  display: inline-block;
+  width: 180px;
+  height: 30px;
+}
+.frameChild {
+  position: absolute;
+  top: 56.25px;
+  left: 11.25px;
+  border-top: 1.5px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 308.5px;
+  height: 1.5px;
+}
+.mainMenuParent {
+  position: absolute;
+  top: 151px;
+  left: 32px;
+  width: 343px;
+  height: 93px;
+  overflow: hidden;
+}
+.myMenu,
+.myMenuParent,
+.orders {
+  position: absolute;
+  top: 11px;
+  left: 65px;
+}
+.myMenuParent,
+.orders {
+  left: 266px;
+}
+.myMenuParent {
+  top: 133px;
+  left: 25px;
+  width: 357px;
+  height: 37px;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+}
+.profile1Icon,
+.userName {
+  position: absolute;
+  top: 15px;
+}
+.profile1Icon {
+  left: 50px;
+  width: 29px;
+  height: 35px;
+  object-fit: cover;
+}
+.userName {
+  left: 79px;
+  display: inline-block;
+  width: 82px;
+  height: 23px;
+}
+.signOut {
+  position: absolute;
+  top: 33px;
+  left: 90px;
+  color: var(--color-red);
+}
+.frame2 {
+  position: absolute;
+  width: 39.5%;
+  top: calc(50% - 39.5px);
+  right: 4.5%;
+  left: 56%;
+  height: 82px;
+}
+.setmenuBlacklogo1Icon {
+  position: absolute;
+  top: 22px;
+  left: 25px;
+  width: 100px;
+  height: 105.21px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 127px;
+  font-size: var(--font-size-xs);
+}
+.card11Icon,
+.card21Icon {
+  position: absolute;
+  top: 292px;
+  left: 249px;
+  width: 136px;
+  height: 93px;
+  object-fit: cover;
+}
+.card21Icon {
+  top: 450px;
+  left: 215px;
+  width: 176.58px;
+}
+.homeAfterLogin {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

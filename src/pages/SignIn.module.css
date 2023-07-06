@@ -1,0 +1,277 @@
+.rectangle {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-black);
+  height: 800px;
+}
+.frameIcon,
+.imageIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+}
+.imageIcon {
+  width: 30%;
+  top: 58px;
+  right: 64%;
+  left: 6%;
+  height: 120px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameIcon {
+  width: 100%;
+  top: 302.78px;
+  right: 0;
+  left: 0;
+  height: 69.13px;
+}
+.createAccount {
+  position: absolute;
+  width: 57.1%;
+  top: -0.09px;
+  left: 0;
+  display: inline-block;
+}
+.rectangle1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray-100);
+  height: 36px;
+}
+.imageIcon1 {
+  position: absolute;
+  width: 3.69%;
+  top: 12px;
+  right: 93.47%;
+  left: 2.84%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 13px;
+}
+.name {
+  position: absolute;
+  top: 10px;
+  left: 38px;
+}
+.frame2,
+.imageIcon2 {
+  position: absolute;
+  width: 100%;
+  top: -0.09px;
+  right: 0;
+  left: 0;
+  height: 36px;
+  overflow: hidden;
+}
+.imageIcon2 {
+  width: 6.59%;
+  top: 13px;
+  right: 88.62%;
+  left: 4.79%;
+  max-width: 100%;
+  height: 11px;
+}
+.password {
+  position: absolute;
+  top: 9px;
+  left: 35px;
+}
+.frame3,
+.rectangle3 {
+  position: absolute;
+  left: 0;
+}
+.frame3 {
+  width: 47.44%;
+  top: 107.91px;
+  right: 52.56%;
+  height: 36px;
+  overflow: hidden;
+}
+.rectangle3 {
+  width: 100%;
+  top: 174.91px;
+  right: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-papayawhip);
+  height: 40px;
+}
+.email,
+.frame4 {
+  position: absolute;
+  top: 11px;
+  left: 40px;
+}
+.frame4 {
+  width: 100%;
+  top: 53.91px;
+  right: 0;
+  left: 0;
+  height: 36px;
+  overflow: hidden;
+}
+.confirmedPassword,
+.frame5 {
+  position: absolute;
+  top: 9px;
+  left: 30px;
+}
+.frame5 {
+  width: 47.44%;
+  top: 107.91px;
+  right: 0;
+  left: 52.56%;
+  height: 36px;
+  overflow: hidden;
+}
+.createAccount1 {
+  position: absolute;
+  top: 185.91px;
+  left: 117px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  color: var(--color-black);
+  cursor: pointer;
+}
+.frame1 {
+  position: absolute;
+  width: 100%;
+  top: 65px;
+  right: 0;
+  left: 0;
+  height: 214.78px;
+  font-size: var(--font-size-xs);
+}
+.main,
+.rectangle6 {
+  position: absolute;
+  width: 88%;
+  top: 215.09px;
+  right: 6%;
+  left: 6%;
+  height: 395.78px;
+}
+.rectangle6 {
+  width: 100%;
+  top: 38px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-100);
+  height: 1px;
+}
+.logIn {
+  position: absolute;
+  width: 12.78%;
+  top: 0.08px;
+  left: 54.83%;
+  display: inline-block;
+  cursor: pointer;
+}
+.rectangle7 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 58px;
+}
+.contact {
+  width: 11.36%;
+  left: 12.22%;
+  display: inline-block;
+}
+.contact,
+.privacyPolicy,
+.termsAndConditions {
+  position: absolute;
+  top: 15px;
+  cursor: pointer;
+}
+.termsAndConditions {
+  width: 32.1%;
+  left: 50.57%;
+  display: inline-block;
+}
+.privacyPolicy {
+  width: 21.02%;
+  left: 26.7%;
+}
+.about,
+.privacyPolicy,
+.setmenu {
+  display: inline-block;
+}
+.about {
+  position: absolute;
+  width: 9.09%;
+  top: 15px;
+  left: 0;
+  cursor: pointer;
+}
+.setmenu {
+  width: 24.72%;
+  top: 45px;
+}
+.doYouAlready,
+.frame7,
+.setmenu {
+  position: absolute;
+  left: 0;
+}
+.frame7 {
+  width: 100%;
+  top: 39.08px;
+  right: 0;
+  height: 58px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray);
+}
+.doYouAlready {
+  width: 54.83%;
+  top: 0.08px;
+  font-size: var(--font-size-2xs);
+  display: inline-block;
+}
+.frame6 {
+  position: absolute;
+  width: 88%;
+  top: 644.92px;
+  right: 6%;
+  left: 6%;
+  height: 97px;
+  font-size: var(--font-size-xs);
+}
+.frame,
+.rectangle8 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 800px;
+}
+.rectangle8 {
+  width: 0.25%;
+  top: -100px;
+  right: 99.75%;
+  height: 1px;
+}
+.signIn {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

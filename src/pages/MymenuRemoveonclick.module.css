@@ -1,0 +1,396 @@
+.rectangle {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  height: 148px;
+}
+.about,
+.contact,
+.privacyPolicy,
+.termsOfUse {
+  position: absolute;
+  top: 24.81px;
+  left: calc(50% - 33px);
+  display: inline-block;
+  width: 47px;
+}
+.about,
+.privacyPolicy,
+.termsOfUse {
+  top: 74.81px;
+  left: calc(50% - 46px);
+  width: 72px;
+}
+.about,
+.privacyPolicy {
+  top: -0.19px;
+  left: calc(50% - 28px);
+  width: 37px;
+}
+.privacyPolicy {
+  top: 49.81px;
+  left: calc(50% - 51px);
+  font-size: var(--font-size-xs);
+  width: 82px;
+}
+.frame1 {
+  position: absolute;
+  width: 28.98%;
+  top: calc(50% - 50px);
+  right: 71.02%;
+  left: 0;
+  height: 100px;
+}
+.copyright2022 {
+  position: absolute;
+  width: 54.55%;
+  top: calc(50% - 9.19px);
+  left: 45.45%;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  display: inline-block;
+}
+.footer,
+.frame {
+  position: absolute;
+  width: 88%;
+  top: 24.19px;
+  right: 6%;
+  left: 6%;
+  height: 100px;
+}
+.footer {
+  width: 100%;
+  top: 768px;
+  right: 0;
+  left: 0;
+  height: 148px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-darkslategray-200);
+}
+.frameChild {
+  position: absolute;
+  top: 77px;
+  left: 51px;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(rgba(0, 198, 255, 0.2), rgba(0, 198, 255, 0.2)),
+    #0072ff;
+  width: 83px;
+  height: 36px;
+  mix-blend-mode: normal;
+}
+.edit {
+  position: absolute;
+  top: 86px;
+  left: 78px;
+  color: var(--color-white);
+}
+.frameItem {
+  top: 77px;
+  left: 179px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-orangered);
+  width: 83px;
+  height: 36px;
+  mix-blend-mode: normal;
+}
+.frameItem,
+.name,
+.remove {
+  position: absolute;
+}
+.remove {
+  top: 86px;
+  left: 190px;
+  color: var(--color-white);
+}
+.name {
+  top: 12px;
+  left: 51px;
+  font-size: var(--font-size-lg);
+}
+.category,
+.description {
+  position: absolute;
+  top: 37px;
+  left: 51px;
+}
+.description {
+  top: 57px;
+}
+.rectangleGroup,
+.rectangleParent {
+  position: absolute;
+  top: 593px;
+  left: 44px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  width: 314px;
+  height: 127px;
+  overflow: hidden;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-inter);
+}
+.rectangleGroup {
+  top: 439px;
+}
+.frameChild1 {
+  position: absolute;
+  top: 52px;
+  left: 60px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightskyblue-200);
+  width: 182px;
+  height: 42px;
+}
+.yourMenuIs {
+  position: absolute;
+  top: 0;
+  left: 38px;
+}
+.generatedLink,
+.menuQrCode {
+  position: absolute;
+  top: 22px;
+  left: 82px;
+  color: var(--color-mediumslateblue-200);
+}
+.menuQrCode {
+  top: 62px;
+  color: var(--color-gray-300);
+}
+.rectangleContainer {
+  position: absolute;
+  top: 314px;
+  left: 47px;
+  width: 314px;
+  height: 98px;
+  overflow: hidden;
+  font-size: var(--font-size-lg);
+}
+.lineDiv {
+  position: absolute;
+  top: 127.25px;
+  left: 21.25px;
+  border-top: 1.5px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 308.5px;
+  height: 1.5px;
+}
+.frameChild2 {
+  position: absolute;
+  top: 64px;
+  left: 90px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-steelblue-200);
+  width: 162px;
+  height: 41px;
+}
+.mainMenu {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-weight: 600;
+  display: inline-block;
+  width: 180px;
+  height: 30px;
+}
+.publish {
+  position: absolute;
+  top: 22px;
+  left: 218px;
+  font-size: var(--font-size-mini);
+}
+.frameChild3 {
+  position: absolute;
+  top: 15px;
+  left: 280px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue-300);
+  width: 63px;
+  height: 31px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 21px;
+  left: 311px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 21px;
+  height: 18px;
+}
+.plusCircle1Icon {
+  position: absolute;
+  top: 71px;
+  left: 206px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.addFood {
+  position: absolute;
+  top: 73px;
+  left: 106px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-400);
+}
+.lineParent {
+  position: absolute;
+  top: 167px;
+  left: 32px;
+  width: 353px;
+  height: 128px;
+  overflow: hidden;
+  font-size: var(--font-size-6xl);
+}
+.myMenu,
+.myMenuParent,
+.orders {
+  position: absolute;
+  top: 11px;
+  left: 65px;
+}
+.myMenuParent,
+.orders {
+  left: 266px;
+}
+.myMenuParent {
+  top: 133px;
+  left: 25px;
+  width: 357px;
+  height: 37px;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+}
+.profile1Icon,
+.userName {
+  position: absolute;
+  top: 15px;
+}
+.profile1Icon {
+  left: 50px;
+  width: 29px;
+  height: 35px;
+  object-fit: cover;
+}
+.userName {
+  left: 79px;
+  display: inline-block;
+  width: 82px;
+  height: 23px;
+}
+.signOut {
+  position: absolute;
+  top: 33px;
+  left: 90px;
+  color: var(--color-red);
+}
+.frame2 {
+  position: absolute;
+  width: 39.5%;
+  top: calc(50% - 39.5px);
+  right: 4.5%;
+  left: 56%;
+  height: 82px;
+}
+.setmenuBlacklogo1Icon {
+  position: absolute;
+  top: 22px;
+  left: 25px;
+  width: 100px;
+  height: 105.21px;
+  object-fit: cover;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 127px;
+  font-size: var(--font-size-xs);
+}
+.mymenuremoveonclickChild,
+.mymenuremoveonclickItem {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.mymenuremoveonclickChild {
+  top: 295px;
+  left: 61px;
+  border-radius: var(--br-mini);
+  width: 280px;
+  height: 230px;
+}
+.mymenuremoveonclickItem {
+  top: 272px;
+  left: 309px;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 51px;
+  height: 42px;
+}
+.close2Icon {
+  position: absolute;
+  top: 267px;
+  left: 304px;
+  width: 61px;
+  height: 52px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.mymenuremoveonclickInner {
+  position: absolute;
+  top: 416px;
+  left: 112px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  width: 81px;
+  height: 47px;
+  cursor: pointer;
+}
+.no {
+  position: absolute;
+  top: 427px;
+  left: 135px;
+  color: var(--color-white);
+}
+.doYouWant {
+  margin: 0;
+}
+.doYouWantContainer {
+  position: absolute;
+  top: 347px;
+  left: 82px;
+}
+.mymenuremoveonclickChild1 {
+  position: absolute;
+  top: 416px;
+  left: 219px;
+  border-radius: var(--br-xl);
+  background-color: #ff3a3a;
+  width: 81px;
+  height: 47px;
+  cursor: pointer;
+}
+.yes {
+  position: absolute;
+  top: 427px;
+  left: 243px;
+  color: var(--color-white);
+}
+.mymenuremoveonclick {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 100%;
+  height: 916px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
